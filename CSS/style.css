@@ -1,0 +1,406 @@
+
+@font-face {
+    font-family: Matterhorn;
+    src: url(Matterhorn.ttf);
+}
+html,body{
+    height: 100%;
+}
+html{
+    display: table;
+    margin: auto;
+}
+body{
+    color:black;
+    font-size: 1em;
+    background-color: white;
+    font-family:  'Matterhorn', Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    vertical-align: middle;
+}
+.All{
+    display: flexbox;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+}
+.Navbar{
+    display: flex;
+    width: 1600px;
+    height: 65px;
+    justify-content: left;
+    font-weight:bolder;
+    font-size: 14px;
+    margin-left: 10px;
+    
+}
+.navLogo{
+    max-width: 114px;
+    max-height: 65px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background-image: "Images/Navlogo.png";
+    margin-left: 10px;
+    margin-right: 15px;
+}
+.nav-item{
+    max-width: 95px;
+    max-height: 62.4px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    vertical-align: middle;
+    align-self: center;
+    margin-left: 15px;
+    margin-right: 27px;
+}
+.nav-parks{
+    max-width: 95px;
+    max-height: 62.4px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    vertical-align: middle;
+    align-self: center;
+    margin-left: 15px;
+    margin-right: 27px;
+}
+.nav-item:hover{
+    color:#0077DA;
+}
+.subscribe{
+    display: flex;
+    width: 1600px;
+    background-color: #01147B;
+    height: 70px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.subscribeText{
+    color: white;
+    vertical-align: middle;
+    align-self: center;
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+}
+.subscribeImg{
+    color: white;
+    vertical-align: middle;
+    align-self: center;
+    height: 26px;
+    width: 35px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+}
+.avengers{
+    display: flex;
+    height: 686px;
+    width: 1600px;
+    background-image: url("../Images/Avengers.jpeg");
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    background-size: 1600px 686px;
+
+}
+.avengersContent{
+    height: 215px;
+    width: 601px;
+    vertical-align: left;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    list-style: none;
+}
+.avengersLogo{
+    height: 143px;
+    width: 501px;
+    margin-bottom: 10px;
+}
+.avengers:hover{
+    background-position: center;
+    background-size: 1650px 700px;
+    transition: 0.5s;
+}
+.avengersText{
+    height: 32px;
+    width: 501px;
+    margin-left: 80px;
+    color: white;
+    font-weight: 400;
+    font-size: 0.85em;
+}
+.button{
+    display: flex;
+    background-color: white;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    margin-left: 120px;
+    width: 240px;
+    height: 48px;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+.whatsOn{
+    display: flex;
+    width: 1600px;
+    height: 96px;
+    background-color: #030C40;
+    color: white;
+    font-weight: 400;
+    font-size: 1.875rem;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.shows{
+    display: flex;
+    width: 1600px;
+    height: 580px;
+    background-color: #030C40;
+}
+.showsBobMain{
+    height: 568px;
+    width: 686px;
+    list-style: none;
+    padding-left: 100px;
+}
+.showsBob{
+    height: 389px;
+    width: 688px;
+    background-image: url("../Images/bobsBurgers.jpg");
+    background-size: contain;
+}
+.descTitle{
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    margin:30px;
+    margin-bottom: 10px;
+}
+.descCont{
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+.descDisney{
+    color: black;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 30px;
+    align-self: left;
+}
+.descBob{
+    display: flex;
+    background-color: white;
+    height: 180px;
+    width: 688px;
+    padding: 0px;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.showsZomb{
+    height: 389px;
+    width: 333px;
+    background-image: url("../Images/Zombie.jpg");
+    background-size: cover;
+}
+.showsMain{
+    display: flex;
+    height: 568px;
+    width: 333px;
+    list-style: none;
+    padding-left: 20px;
+    flex-direction: column;
+    justify-content: left;
+}
+.showsMarvel{
+    height: 389px;
+    width: 333px;
+    background-image: url("../Images/Marvel.jpg");
+    background-size:cover ;
+}
+.descs{
+    display:flex;
+    background-color: white;
+    height: 180px;
+    width: 333px;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.brands{
+    width: 816px;
+    height: 34px;
+}
+.button2{
+    display: flex;
+    background-color: #0065E2;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 48px;
+    font-weight: 600;
+    border-radius: 50px;
+    font-size: 1rem;
+}
+.button2:hover{
+    background-color: #0066e2e3;
+}
+.shop{
+    display: flex;
+    width: 1600px;
+    height: 110px;
+    background-color: #F1F2F3;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.875rem;
+    padding-top: 16px;
+
+}
+.show2{
+    display: flex;
+    width: 1600px;
+    height: 20px;
+    background-color: #F1F2F3;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.875rem;
+
+}
+.filmboxes{
+    display: flex;
+    width: 1450px;
+    height: 744px;
+    background-color: #F1F2F3; 
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 25px;
+}
+.finalGrey{
+    display: flex;
+    width: 1400px;
+    height: 457px;
+    background-color: #F1F2F3;
+    padding-left: 100px;
+    padding-right: 100px;
+    flex-direction: row;
+}
+
+.movies{
+    width: 262px;
+    height: 437px;
+    margin-left: 10px;
+    margin-right:20px;
+    justify-content: left;
+    align-items: left;
+    list-style: none;
+}
+.moviesTitle{
+
+        display: flex;
+        width: 1600px;
+        height: 110px;
+        background-color: #F1F2F3;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.875rem;
+        padding-top: 16px;
+    
+} 
+
+.strangeImg{
+width: 262px;
+height: 400px;
+background-image: url("../Images/StrangeWorld.jpg");
+background-size: cover;
+}
+.moviesDesc{
+margin-top:10px;
+width: 262px;
+height: 37px;
+font-weight: 600;
+}
+.thorImg{
+    width: 262px;
+    height: 400px;
+    background-image: url("../Images/Thor.jpg");
+    background-size: cover;
+    }
+.lightImg{
+     width: 262px;
+     height: 400px;
+     background-image: url("../Images/Lightyear.jpg");
+     background-size: cover;
+    }
+.sign{
+        display: flex;
+        width: 1600px;
+        background-color:#0077DA;
+        height: 70px;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+.signText{
+        color: white;
+        vertical-align: middle;
+        align-self: center;
+        font-size: 0.875rem;
+        font-weight: 500;
+        letter-spacing: 0.8px;
+    }
+.signImg{
+        color: white;
+        vertical-align: middle;
+        align-self: center;
+        height: 26px;
+        width: 35px;
+        padding-left: 10px;
+        padding-bottom: 3px;
+    }
+    .follow{
+        display: flex;
+        width: 1600px;
+        background-color: white;
+        height: 70px;
+        color: black;
+        align-content: center;
+        justify-content: center;
+        font-size: 0.875rem;
+        font-weight: 500;
+        letter-spacing: 0.8px;
+    }
+.footerBox{
+    width: 1600px;
+    display: flex;
+    width: auto;
+    height: 45px;
+    color: #333333;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.footer{
+    font-size: 0.75em;
+    height: 45px;
+}
+.socialImg{
+height: 32px;
+width: 32px;
+align-self:flex-start;
+}
+.disneyImg{
+    height: 36px;
+    width: 84px;
+}
+.copyright{
+    font-size: 0.75em;
+    height: 45px;   
+}
